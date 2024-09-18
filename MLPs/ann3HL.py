@@ -50,7 +50,7 @@ for epoch in range(80):
         n5 = W5.T @ a4 + b5
         y  = np.array(sigm(n5))
 
-
+        # Backpropagation
         error = Y_train[i] - y
         err = np.linalg.norm(error * error)
         errsum += err
@@ -65,6 +65,7 @@ for epoch in range(80):
         S3 = ((A3 @ W4) @ S4)
         S2 = ((A2 @ W3) @ S3)
 
+        # Gradient Descent
         W2 -= alpha * a1 @ S2.T
         W3 -= alpha * a2 @ S3.T
         W4 -= alpha * a3 @ S4.T
@@ -76,7 +77,7 @@ for epoch in range(80):
     errors.append(errsum)
 
 
-
+# Error over epochs
 length = len(errors)
 xvals = range(length)
 plt.plot(xvals, errors)
@@ -85,6 +86,7 @@ plt.xlabel('update')
 plt.ylabel('error')
 plt.show()
 
+# Evaluation
 A_test = np.loadtxt("MNIST_test_100.csv", delimiter=',').astype(int)
 X_test = A_test[:, 1:].T/255
 Y_test = [1 if digit in ID_numbers else 0 for digit in A_test[:, 0]]
