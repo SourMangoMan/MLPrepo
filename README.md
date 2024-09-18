@@ -1,6 +1,6 @@
 # MLPrepo
 
-This repository keeps track of the testing being done on a multi-layer perceptron trained on handwritten digits (MNIST dataset). I am new to deep learning and wanted to play around with the code.
+This repository keeps track of variations on a multi-layer perceptron trained on handwritten digits (MNIST dataset). I am new to deep learning and wanted to play around with the code.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a05c8dd1-ce6e-4872-a612-9673aa347822" />
