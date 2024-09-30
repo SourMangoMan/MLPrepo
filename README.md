@@ -1,6 +1,6 @@
 # MLPrepo
 
-This repository keeps track of variations on a multi-layer perceptron trained on handwritten digits (MNIST dataset). I am new to deep learning and wanted to play around with the code whose origin is in Tariq Rashid's book ["Make Your Own Neural Network"](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608).
+This repository keeps track of variations on a multi-layer perceptron trained on handwritten digits (MNIST dataset). I am new to deep learning and wanted to play around with the code whose origin is in Tariq Rashid's book ["Make Your Own Neural Network"](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608). The code was originally written in MATLAB for the Mathematics for Deep Learning module at Brunel University. It has since been converted to python with additional functionalities.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a05c8dd1-ce6e-4872-a612-9673aa347822" />
